@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 
 // Interrupting a task blocked with a ReentrantLock.

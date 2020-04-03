@@ -1,6 +1,6 @@
 package stream;
 
-import common.utils.PrintUtil;
+import utils.PrintUtil;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -11,8 +11,8 @@ import java.util.function.IntSupplier;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static common.utils.PrintUtil.newLine;
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.newLine;
+import static utils.PrintUtil.println;
 
 public class _05_BuildingStreams {
 

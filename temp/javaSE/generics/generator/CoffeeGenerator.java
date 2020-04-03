@@ -10,7 +10,7 @@ import generics.generator.coffee.Mocha;
 import java.util.Iterator;
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 
 /**

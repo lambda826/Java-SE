@@ -3,7 +3,7 @@ package generics.maker;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ArrayMaker<T> {
     private Class<T> kind;

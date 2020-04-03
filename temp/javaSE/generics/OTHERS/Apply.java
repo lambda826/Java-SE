@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class Apply {
     public static <T, S extends Iterable<? extends T>> void apply(S seq, Method f, Object... args) {

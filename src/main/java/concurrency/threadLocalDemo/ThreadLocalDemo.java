@@ -1,11 +1,13 @@
 package concurrency.threadLocalDemo;
 
-import static common.utils.PrintUtil.println;
+import lombok.SneakyThrows;
+
+import static utils.PrintUtil.println;
 
 public class ThreadLocalDemo {
 
     public static void main(String[] args) {
-        final ThreadLocal<Person> sharedThreadLocalPerson = ThreadLocal.withInitial(() -> new Person());
+        final ThreadLocal<Person> sharedThreadLocalPerson = ThreadLocal.withInitial(() -> new Person("hyx", 32));
         Thread t1 = new Thread(new Task1(sharedThreadLocalPerson));
         Thread t2 = new Thread(new Task2(sharedThreadLocalPerson));
         t1.start();
@@ -20,15 +22,13 @@ public class ThreadLocalDemo {
             this.threadLocalPerson = threadLocalPerson;
         }
 
+        @SneakyThrows
         @Override
         public void run() {
+            println(Thread.currentThread().getName() + " ThreadLocalPerson Initial: " + threadLocalPerson.get());
             threadLocalPerson.set(threadLocalPerson.get().setAge(1));
             threadLocalPerson.set(threadLocalPerson.get().setName("a"));
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            Thread.sleep(200);
             println(Thread.currentThread().getName() + " ThreadLocalPerson: " + threadLocalPerson.get());
         }
     }
@@ -41,15 +41,13 @@ public class ThreadLocalDemo {
             this.threadLocalPerson = threadLocalPerson;
         }
 
+        @SneakyThrows
         @Override
         public void run() {
+            println(Thread.currentThread().getName() + " ThreadLocalPerson Initial: " + threadLocalPerson.get());
             threadLocalPerson.set(threadLocalPerson.get().setAge(2));
             threadLocalPerson.set(threadLocalPerson.get().setName("b"));
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            Thread.sleep(200);
             println(Thread.currentThread().getName() + " ThreadLocalPerson: " + threadLocalPerson.get());
         }
     }

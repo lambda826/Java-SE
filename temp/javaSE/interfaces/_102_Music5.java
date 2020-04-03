@@ -4,7 +4,7 @@ package interfaces;
 
 import oop.polymorphism.music._101_Note;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 interface InstrumentInterface {
     // Compile-time constant:

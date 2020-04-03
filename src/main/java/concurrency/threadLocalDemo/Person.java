@@ -1,5 +1,8 @@
 package concurrency.threadLocalDemo;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 class Person {
     private String name;
     private int age;

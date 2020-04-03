@@ -3,7 +3,7 @@ package reflection;
 import java.util.ArrayList;
 import java.util.List;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _04_GenericClassReferences<T> {
     static class CountedInteger {

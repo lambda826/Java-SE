@@ -1,6 +1,6 @@
 package generics.OTHERS;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Using Reflection to produce latent typing.
 

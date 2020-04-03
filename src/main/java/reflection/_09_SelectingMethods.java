@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 
 public class _09_SelectingMethods {

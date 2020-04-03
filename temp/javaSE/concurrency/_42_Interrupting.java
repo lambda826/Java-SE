@@ -2,7 +2,7 @@ package concurrency;
 
 // Interrupting a blocked thread.
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class SleepBlocked implements Runnable {
     public void run() {

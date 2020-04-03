@@ -1,6 +1,6 @@
 package string;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _03_StringBuilder_Constructors {
 

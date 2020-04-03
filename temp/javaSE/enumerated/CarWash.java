@@ -1,6 +1,6 @@
 package enumerated;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class CarWash {
     public enum Cycle {

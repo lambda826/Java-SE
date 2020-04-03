@@ -1,6 +1,6 @@
 package enumerations;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public enum OverrideConstantSpecific {
     NUT, BOLT, WASHER {

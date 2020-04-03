@@ -2,7 +2,7 @@ package concurrency;
 
 // A toaster that uses queues.
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Toast {
     public enum Status {

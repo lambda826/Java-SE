@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _15_WordCount_Spliterator {
 

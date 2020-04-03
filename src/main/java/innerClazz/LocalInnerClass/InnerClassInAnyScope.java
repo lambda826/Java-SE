@@ -1,6 +1,6 @@
 package innerClazz.LocalInnerClass;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class InnerClassInAnyScope {
     public static void main(String[] args) {

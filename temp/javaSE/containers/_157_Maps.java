@@ -8,7 +8,7 @@ import java.util.TreeMap;
 import java.util.WeakHashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static utils.Print.printnb;
 
 public class _157_Maps {

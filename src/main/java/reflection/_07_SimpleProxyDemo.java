@@ -1,6 +1,6 @@
 package reflection;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class _07_SimpleProxyDemo {
     interface SomeInterface {

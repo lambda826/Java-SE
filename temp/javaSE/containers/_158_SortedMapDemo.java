@@ -3,7 +3,7 @@ package containers;
 import java.util.Iterator;
 import java.util.TreeMap;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // What you can do with a TreeMap.
 

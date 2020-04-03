@@ -13,7 +13,7 @@ import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class AtUnit implements ProcessFiles.Strategy {
     static Class<?> testClass;

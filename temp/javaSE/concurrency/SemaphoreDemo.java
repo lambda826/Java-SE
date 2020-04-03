@@ -2,7 +2,7 @@ package concurrency;
 
 // Testing the Pool class
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // A task to check a resource out of a pool:
 class CheckoutTask<T> implements Runnable {

@@ -6,7 +6,7 @@ import generics._109_Generator;
 
 import java.util.Iterator;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Letters implements _109_Generator<_141_Pair<Integer, String>>, Iterable<Integer> {
     private int size = 9;

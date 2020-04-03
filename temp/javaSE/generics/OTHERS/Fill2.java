@@ -9,7 +9,7 @@ import generics.generator.coffee.Latte;
 import generics.generator.coffee.Mocha;
 import util.*;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 interface Addable<T> {
     void add(T t);

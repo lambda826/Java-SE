@@ -1,6 +1,6 @@
 package clazz;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _101_Flower {
     int petalCount = 0;

@@ -1,6 +1,6 @@
 package containers;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _118_SetOperations {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ package containers.array;
 import java.util.Arrays;
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _103_ArrayClassObj {
     public static void main(String[] args) {

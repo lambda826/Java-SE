@@ -2,7 +2,7 @@ package generics.erasure;
 
 import java.util.ArrayList;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ErasedTypeEquivalence {
     public static void main(String[] args) {

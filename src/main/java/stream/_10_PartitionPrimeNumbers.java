@@ -17,7 +17,7 @@ import java.util.stream.Collector;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static java.util.stream.Collector.Characteristics.IDENTITY_FINISH;
 import static java.util.stream.Collectors.partitioningBy;
 

@@ -2,7 +2,7 @@ package concurrency;
 
 // A dining philosopher
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class Philosopher implements Runnable {
     private Chopstick left;

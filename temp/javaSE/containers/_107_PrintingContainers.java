@@ -1,6 +1,6 @@
 package containers;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _107_PrintingContainers {
     static Collection fill(Collection<String> collection) {

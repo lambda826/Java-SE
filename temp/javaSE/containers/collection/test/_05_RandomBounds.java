@@ -1,6 +1,6 @@
 package containers.collection.test;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _05_RandomBounds {
     static void usage() {

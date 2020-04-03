@@ -5,7 +5,7 @@
 //import java.util.Arrays;
 //import java.util.Random;
 //
-//import static common.utils.PrintUtil.println;
+//import static utils.PrintUtil.println;
 //
 //public class _139_CompType implements Comparable<_139_CompType> {
 //    int i;

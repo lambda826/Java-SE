@@ -7,7 +7,7 @@
 //import java.util.regex.Matcher;
 //import java.util.regex.Pattern;
 //
-//import static common.utils.PrintUtil.println;
+//import static utils.PrintUtil.println;
 //
 //
 ///*! Here's a block of text to use as input to

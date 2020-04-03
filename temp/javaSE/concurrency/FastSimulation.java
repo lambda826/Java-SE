@@ -1,6 +1,6 @@
 package concurrency;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class FastSimulation {
     static final int N_ELEMENTS = 100000;

@@ -5,7 +5,7 @@ import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
 import java.util.stream.LongStream;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 
 public class _14_ForkJoinSumCalculator extends RecursiveTask<Long> {

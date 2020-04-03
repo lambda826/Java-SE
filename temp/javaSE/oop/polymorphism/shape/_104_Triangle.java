@@ -1,6 +1,6 @@
 package oop.polymorphism.shape;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _104_Triangle extends _101_Shape {
 

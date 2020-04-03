@@ -1,6 +1,6 @@
 package generics.erasure.demo;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class HasF {
     public void f() {

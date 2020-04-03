@@ -10,7 +10,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ClassNameFinder {
     public static String thisClass(byte[] classBytes) {

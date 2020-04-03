@@ -4,7 +4,7 @@ import reflection.pet.Pet;
 import reflection.pet.Pets;
 import utils.TypeCounter;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static utils.Print.printnb;
 
 public class PetCount4 {

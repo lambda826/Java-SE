@@ -5,9 +5,9 @@
 
 package container.map;
 
-import common.utils.PrintUtil;
+import utils.PrintUtil;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static java.util.Map.entry;
 
 Util.println;

@@ -1,6 +1,6 @@
 package enumerations._01_enums;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public enum OzWitch {
     // Instances must be defined first, before methods:

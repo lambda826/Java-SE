@@ -10,7 +10,7 @@ package utils.atunit;
 import utils.BinaryFile;
 import utils.ProcessFiles;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class AtUnitRemover implements ProcessFiles.Strategy {
     private static boolean remove = false;

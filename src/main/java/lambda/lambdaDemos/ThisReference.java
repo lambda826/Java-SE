@@ -1,7 +1,7 @@
 package lambda.lambdaDemos;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ThisReference {
 

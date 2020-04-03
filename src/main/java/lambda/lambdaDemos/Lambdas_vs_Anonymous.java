@@ -1,6 +1,6 @@
 package lambda.lambdaDemos;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class Lambdas_vs_Anonymous {
 

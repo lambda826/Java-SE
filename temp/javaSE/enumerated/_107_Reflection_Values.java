@@ -5,7 +5,7 @@ import java.lang.reflect.Type;
 import java.util.Set;
 import java.util.TreeSet;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static utils.Print.printnb;
 
 enum Explore {

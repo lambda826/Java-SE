@@ -5,7 +5,7 @@
 //import java.util.Collections;
 //import java.util.List;
 //
-//import static common.utils.PrintUtil.println;
+//import static utils.PrintUtil.println;
 //
 //public class _147_CollectionMethods {
 //    public static void main(String[] args) {

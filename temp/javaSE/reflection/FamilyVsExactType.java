@@ -2,7 +2,7 @@
 // The difference between instanceof and class
 package reflection;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Base {
 }

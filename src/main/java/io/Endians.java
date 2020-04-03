@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Arrays;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Endian differences and data storage.
 

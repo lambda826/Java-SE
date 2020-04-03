@@ -6,7 +6,7 @@ import java.util.function.Function;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _13_ParallelStreams {
 

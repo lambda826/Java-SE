@@ -2,7 +2,7 @@ package reflection.packageAccess;
 
 import reflection.interfaca.A;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class C implements A {
     public void f() {

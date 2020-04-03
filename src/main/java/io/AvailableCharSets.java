@@ -4,8 +4,8 @@ import java.nio.charset.Charset;
 import java.util.Iterator;
 import java.util.SortedMap;
 
-import static common.utils.PrintUtil.println;
-import static common.utils.PrintUtil.printnb;
+import static utils.PrintUtil.println;
+import static utils.PrintUtil.printnb;
 
 // Displays Charsets and aliases
 

@@ -4,7 +4,7 @@ import generics.bounds.wildcards._01_CovariantArrays.Apple;
 import generics.bounds.wildcards._01_CovariantArrays.Fruit;
 import generics.bounds.wildcards._01_CovariantArrays.Orange;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _05_Holder<T> {
     private T value;

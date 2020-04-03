@@ -1,6 +1,6 @@
 package concurrency.threadLocalDemo;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ThreadUsingInstanceVariable {
 
@@ -13,7 +13,7 @@ public class ThreadUsingInstanceVariable {
 
     private static class Task1 implements Runnable {
 
-        private Person person = new Person();
+        private Person person = new Person("hyx", 32);
 
         @Override
         public void run() {
@@ -30,7 +30,7 @@ public class ThreadUsingInstanceVariable {
 
     private static class Task2 implements Runnable {
 
-        private Person person = new Person();
+        private Person person = new Person("hyx", 32);
 
         @Override
         public void run() {

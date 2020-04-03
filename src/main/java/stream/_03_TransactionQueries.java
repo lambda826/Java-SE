@@ -1,7 +1,7 @@
 package stream;
 
 import common.pojos.Trader;
-import common.utils.PrintUtil;
+import utils.PrintUtil;
 
 import java.util.Arrays;
 import java.util.List;

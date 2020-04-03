@@ -20,7 +20,7 @@ import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ZipCompress {
     public static void main(String[] args) throws IOException {

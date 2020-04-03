@@ -1,6 +1,6 @@
 package concurrency;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // General idiom for interrupting a task.
 // {Args: 1100}

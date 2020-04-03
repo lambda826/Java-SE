@@ -2,7 +2,7 @@ package innerClazz.LocalInnerClass;
 
 import innerClazz.Destination;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class InnerClassInMethod {
 

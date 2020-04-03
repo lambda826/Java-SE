@@ -1,6 +1,6 @@
 package concurrency;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _45_MultiLock {
     public synchronized void f1(int count) {

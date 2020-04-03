@@ -1,6 +1,6 @@
 package reflection;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Using reflection to show all the methods of a class,
 // even if the methods are defined in the base class.

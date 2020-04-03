@@ -3,7 +3,7 @@ package concurrency;
 // Comparing the performance of explicit Locks
 // and Atomics versus the synchronized keyword.
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 abstract class Accumulator {
     public static long cycles = 50000L;

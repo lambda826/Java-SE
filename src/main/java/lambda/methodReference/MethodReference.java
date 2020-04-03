@@ -2,7 +2,7 @@ package lambda.methodReference;
 
 import java.util.function.Function;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class MethodReference {
 

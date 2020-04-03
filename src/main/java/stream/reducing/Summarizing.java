@@ -5,7 +5,7 @@ import common.pojos.Dish;
 import java.util.Comparator;
 
 import static common.pojos.Dish.menu;
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static java.util.stream.Collectors.averagingInt;
 import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.maxBy;

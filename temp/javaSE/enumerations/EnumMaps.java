@@ -5,7 +5,7 @@ package enumerations;
 import java.util.EnumMap;
 import java.util.Map;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static enumerations.AlarmPoints.*;
 
 interface Command {

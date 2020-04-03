@@ -8,7 +8,7 @@ import utils.TextFile;
 import java.util.EnumMap;
 import java.util.Iterator;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static enumerations.Input.ABORT_TRANSACTION;
 import static enumerations.Input.CHIPS;
 import static enumerations.Input.DIME;

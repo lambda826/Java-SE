@@ -2,7 +2,7 @@ package string;
 
 import java.util.Arrays;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _02_StringAPIs {
 
@@ -54,9 +54,9 @@ public class _02_StringAPIs {
     public static void stream() {
         String lambda = "temp/javaSE/lambda";
 
-        lambda.chars().forEach(common.utils.PrintUtil::println);
-        lambda.codePoints().forEach(common.utils.PrintUtil::println);
-        (lambda + " \n" + lambda + " \n" + lambda).lines().forEach(common.utils.PrintUtil::println);
+        lambda.chars().forEach(utils.PrintUtil::println);
+        lambda.codePoints().forEach(utils.PrintUtil::println);
+        (lambda + " \n" + lambda + " \n" + lambda).lines().forEach(utils.PrintUtil::println);
 
     }
 

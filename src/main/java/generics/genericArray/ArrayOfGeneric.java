@@ -2,7 +2,7 @@ package generics.genericArray;
 
 import generics.genericArray.ArrayOfGenericReference.Generic;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ArrayOfGeneric {
 

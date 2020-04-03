@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 Util.println;Util.printnb;
 

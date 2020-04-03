@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Vector;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Simple demonstrations of the Collections utilities.
 

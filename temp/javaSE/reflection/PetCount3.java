@@ -8,7 +8,7 @@ import reflection.pet.Pets;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static utils.Print.printnb;
 
 public class PetCount3 {

@@ -1,7 +1,7 @@
 package generics.factory;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class ClassAsFactory<T> {
 

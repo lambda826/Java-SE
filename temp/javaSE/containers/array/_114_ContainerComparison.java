@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _114_ContainerComparison {
     public static void main(String[] args) {

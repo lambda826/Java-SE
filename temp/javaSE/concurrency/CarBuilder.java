@@ -2,7 +2,7 @@ package concurrency;
 
 // A complex example of tasks working together.
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Car {
     private final int id;

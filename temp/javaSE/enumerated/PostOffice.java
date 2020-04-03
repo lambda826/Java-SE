@@ -2,7 +2,7 @@ package enumerated;
 
 import util.*;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Modeling a post office.
 

@@ -4,7 +4,7 @@ import enumerations._04_useEnum.RandomGenerator;
 
 import java.util.Iterator;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Modeling a post office.
 

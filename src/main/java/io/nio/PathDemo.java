@@ -3,7 +3,7 @@ package io.nio;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class PathDemo {
 

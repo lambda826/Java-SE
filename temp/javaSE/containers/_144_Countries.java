@@ -1,7 +1,7 @@
 // "Flyweight" Maps and Lists of sample data.
 package containers;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _144_Countries {
     public static final String[][] DATA = {

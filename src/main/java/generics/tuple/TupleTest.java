@@ -1,6 +1,6 @@
 package generics.tuple;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 
 public class TupleTest {

@@ -2,7 +2,7 @@ package operators;
 
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _104_BitManipulation {
 

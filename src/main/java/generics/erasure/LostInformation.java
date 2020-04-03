@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 
 /*

@@ -1,6 +1,6 @@
 package generics.bounds.wildcards;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _01_CovariantArrays {
 

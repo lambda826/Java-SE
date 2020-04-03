@@ -1,6 +1,6 @@
 package containers;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // What you can do with a TreeSet.
 

@@ -14,7 +14,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _03_ReadOnly {
     static Collection<String> data = new ArrayList<String>(_144_Countries.names(6));

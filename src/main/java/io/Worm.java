@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Demonstrates object serialization.
 

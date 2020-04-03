@@ -4,7 +4,7 @@ package generics.OTHERS;
 
 import reflection.typeInfo.pet.Dog;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class PerformingDog extends Dog implements Performs {
     public void speak() {

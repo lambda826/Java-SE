@@ -4,7 +4,7 @@ package enumerated;
 
 import java.util.EnumSet;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static enumerated.AlarmPoints.BATHROOM;
 import static enumerated.AlarmPoints.KITCHEN;
 import static enumerated.AlarmPoints.OFFICE1;

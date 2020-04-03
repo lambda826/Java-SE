@@ -2,7 +2,7 @@
 // Demonstrates the switch statement.
 package control;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _101_VowelsAndConsonants {
     public static void main(String[] args) {

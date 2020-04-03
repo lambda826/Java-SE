@@ -3,8 +3,8 @@ package string.regExp;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static common.utils.PrintUtil.println;
-import static common.utils.PrintUtil.printnb;
+import static utils.PrintUtil.println;
+import static utils.PrintUtil.printnb;
 
 
 public class _06_Finding {

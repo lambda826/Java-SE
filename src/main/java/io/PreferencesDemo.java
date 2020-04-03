@@ -2,7 +2,7 @@ package io;
 
 import java.util.prefs.Preferences;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class PreferencesDemo {
     public static void main(String[] args) throws Exception {

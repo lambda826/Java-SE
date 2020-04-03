@@ -1,6 +1,6 @@
 package innerClazz.anonymousInnerClass;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 interface Service {
     void method1();

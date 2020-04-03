@@ -1,6 +1,6 @@
 package generics.generator;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class Fibonacci implements Generator<Integer> {
 

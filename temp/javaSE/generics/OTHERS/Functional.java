@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Different types of function objects:
 interface Combiner<T> {

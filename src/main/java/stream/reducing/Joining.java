@@ -3,7 +3,7 @@ package stream.reducing;
 import common.pojos.Dish;
 
 import static common.pojos.Dish.menu;
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static java.util.stream.Collectors.joining;
 
 public class Joining {

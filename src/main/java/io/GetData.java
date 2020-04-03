@@ -2,8 +2,8 @@ package io;
 
 import java.nio.ByteBuffer;
 
-import static common.utils.PrintUtil.println;
-import static common.utils.PrintUtil.printnb;
+import static utils.PrintUtil.println;
+import static utils.PrintUtil.printnb;
 
 // Getting different representations from a ByteBuffer
 

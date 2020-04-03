@@ -2,7 +2,7 @@ package containers.array;
 
 import java.util.Arrays;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _137_CopyingArrays {
     public static void main(String[] args) {

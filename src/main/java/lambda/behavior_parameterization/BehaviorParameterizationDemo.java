@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.function.Predicate;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static lambda.Constant.inventory;
 
 

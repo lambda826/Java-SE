@@ -8,8 +8,8 @@ import java.nio.IntBuffer;
 import java.nio.LongBuffer;
 import java.nio.ShortBuffer;
 
-import static common.utils.PrintUtil.println;
-import static common.utils.PrintUtil.printnb;
+import static utils.PrintUtil.println;
+import static utils.PrintUtil.printnb;
 
 public class ViewBuffers {
     public static void main(String[] args) {

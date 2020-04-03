@@ -7,7 +7,7 @@ import java.time.LocalTime;
 import java.time.Month;
 import java.time.temporal.ChronoField;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 /*
 

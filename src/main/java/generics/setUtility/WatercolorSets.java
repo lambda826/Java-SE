@@ -4,7 +4,7 @@ package generics.setUtility;
 import java.util.EnumSet;
 import java.util.Set;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static generics.setUtility.Sets.complement;
 import static generics.setUtility.Sets.difference;
 import static generics.setUtility.Sets.intersection;

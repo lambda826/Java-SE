@@ -7,7 +7,7 @@ import reflection.pet.Rat;
 
 import java.util.LinkedList;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _112_LinkedListFeatures {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ package concurrency;
 // closing the underlying resource.
 // {RunByHand}
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _43_CloseResource {
     public static void main(String[] args) throws Exception {

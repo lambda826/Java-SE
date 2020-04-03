@@ -3,7 +3,7 @@ package containers.collection.legacy;
 import java.util.BitSet;
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _03_Bits {
     public static void printBitSet(BitSet b) {

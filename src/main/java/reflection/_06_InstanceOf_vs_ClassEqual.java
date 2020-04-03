@@ -1,6 +1,6 @@
 package reflection;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 /**
  * In keeping with the concept of type, instanceof says, "Are you this class, or a class Sub from this class?"

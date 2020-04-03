@@ -2,7 +2,7 @@ package concurrency;
 
 // Using pipes for inter-task I/O
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Sender implements Runnable {
     private Random rand = new Random(47);

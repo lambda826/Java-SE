@@ -1,6 +1,6 @@
 package reflection;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Looking for particular methods in a dynamic proxy.
 

@@ -1,6 +1,6 @@
 package exceptions;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Exception1 extends Exception {}
 class Exception11 extends Exception1 {}

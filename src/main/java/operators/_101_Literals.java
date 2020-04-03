@@ -1,7 +1,7 @@
 package operators;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _101_Literals {
     public static void main(String[] args) {

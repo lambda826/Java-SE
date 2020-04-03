@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.function.BinaryOperator;
 
 import static common.pojos.Dish.menu;
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static java.util.stream.Collectors.averagingInt;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.reducing;

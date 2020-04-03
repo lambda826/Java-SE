@@ -1,6 +1,6 @@
 package innerClazz.memberInnerClass.callback;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 interface Increment {
     void increment();

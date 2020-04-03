@@ -1,6 +1,6 @@
 package innerClazz.memberInnerClass.namespace;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Egg2 {
     private Yolk y = new Yolk();

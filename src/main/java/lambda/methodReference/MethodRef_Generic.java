@@ -1,7 +1,7 @@
 package lambda.methodReference;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class MethodRef_Generic {
 

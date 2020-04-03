@@ -1,6 +1,6 @@
 package enumerated;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public enum _104_OzWitch_Method_Constructor {
     // Instances must be defined first, before methods:

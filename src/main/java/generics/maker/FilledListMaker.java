@@ -3,7 +3,7 @@ package generics.maker;
 import java.util.ArrayList;
 import java.util.List;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class FilledListMaker<T> {
     List<T> create(T t, int n) {

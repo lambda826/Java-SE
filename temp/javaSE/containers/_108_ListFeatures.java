@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _108_ListFeatures {
     public static void main(String[] args) {

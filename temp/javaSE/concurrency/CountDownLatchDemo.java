@@ -1,6 +1,6 @@
 package concurrency;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Performs some portion of a task:
 class TaskPortion implements Runnable {

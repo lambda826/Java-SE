@@ -2,7 +2,7 @@ package reflection;
 
 import reflection.interfaca.A;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class InnerA {
     private static class C implements A {

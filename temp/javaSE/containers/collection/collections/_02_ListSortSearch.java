@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Sorting and searching Lists with Collections utilities.
 

@@ -1,7 +1,7 @@
 package enumerations._04_useEnum;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Define an enum type:
 enum Signal {

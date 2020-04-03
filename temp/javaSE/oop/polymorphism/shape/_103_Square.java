@@ -1,6 +1,6 @@
 package oop.polymorphism.shape;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _103_Square extends _101_Shape {
 

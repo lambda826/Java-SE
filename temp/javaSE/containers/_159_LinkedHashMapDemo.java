@@ -2,7 +2,7 @@
 //
 //import java.util.LinkedHashMap;
 //
-//import static common.utils.PrintUtil.println;
+//import static utils.PrintUtil.println;
 //
 //public class _159_LinkedHashMapDemo {
 //    public static void main(String[] args) {

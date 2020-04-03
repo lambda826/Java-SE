@@ -5,7 +5,7 @@ import containers._113_Stack;
 import java.util.LinkedList;
 import java.util.Stack;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static utils.Print.printnb;
 
 enum Month {

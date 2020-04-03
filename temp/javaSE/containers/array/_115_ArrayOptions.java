@@ -4,7 +4,7 @@ import common.obj.BerylliumSphere;
 
 import java.util.Arrays;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _115_ArrayOptions {
     public static void main(String[] args) {

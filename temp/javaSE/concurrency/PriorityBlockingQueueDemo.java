@@ -1,6 +1,6 @@
 package concurrency;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class PrioritizedTask implements Runnable, Comparable<PrioritizedTask> {
     private Random rand = new Random(47);

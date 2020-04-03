@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ExecuteAroundPattern_AOP {
 

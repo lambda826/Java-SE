@@ -1,6 +1,6 @@
 package interfaces;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 interface Game {
     boolean move();

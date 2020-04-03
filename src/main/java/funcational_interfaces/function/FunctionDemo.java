@@ -3,7 +3,7 @@ package interfaces.funcational_interfaces.function;
 
 import java.util.function.Function;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 /**
  * @FunctionalInterface public interface Function<T, ​R>

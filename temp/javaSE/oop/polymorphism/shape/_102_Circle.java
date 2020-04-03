@@ -1,7 +1,7 @@
 package oop.polymorphism.shape;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _102_Circle extends _101_Shape {
 

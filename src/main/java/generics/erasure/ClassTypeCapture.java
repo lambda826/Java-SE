@@ -1,7 +1,7 @@
 package generics.erasure;
 
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class ClassTypeCapture<T> {
 

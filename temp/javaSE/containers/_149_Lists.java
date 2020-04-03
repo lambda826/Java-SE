@@ -6,7 +6,7 @@
 //import java.util.List;
 //import java.util.ListIterator;
 //
-//import static common.utils.PrintUtil.println;
+//import static utils.PrintUtil.println;
 //import static utils.Print.printnb;
 //
 //// Things you can do with Lists.

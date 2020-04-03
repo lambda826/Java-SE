@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import static common.pojos.Dish.menu;
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.collectingAndThen;
 import static java.util.stream.Collectors.groupingBy;

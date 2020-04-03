@@ -1,6 +1,6 @@
 package containers.array;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _138_ComparingArrays {
     public static void main(String[] args) {

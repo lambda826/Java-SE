@@ -9,7 +9,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class LiftOffRunner implements Runnable {
     private BlockingQueue<_01_LiftOff> rockets;

@@ -3,7 +3,7 @@ package io;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class UsingBuffers {
     private static void symmetricScramble(CharBuffer buffer) {

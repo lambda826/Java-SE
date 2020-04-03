@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 import static common.Constants.LINE;
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _01_FileDemo {
 

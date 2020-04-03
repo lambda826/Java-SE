@@ -1,7 +1,7 @@
 package innerClazz.LocalInnerClass;
 
-import static common.utils.PrintUtil.println;
-import static common.utils.PrintUtil.printnb;
+import static utils.PrintUtil.println;
+import static utils.PrintUtil.printnb;
 
 interface Counter {
     int next();

@@ -4,7 +4,7 @@ import generics._109_Generator;
 
 import java.util.Arrays;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class _143_ArraySearching {
     public static void main(String[] args) {

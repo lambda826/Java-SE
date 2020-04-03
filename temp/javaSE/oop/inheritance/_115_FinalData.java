@@ -2,7 +2,7 @@ package oop.inheritance;
 
 import java.util.Random;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 class Value {
     int i;

@@ -5,7 +5,7 @@ import generics.tuple.TupleTest.Vehicle;
 
 import java.util.ArrayList;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class TupleList<A, B, C, D> extends ArrayList<Tuple4<A, B, C, D>> {
 

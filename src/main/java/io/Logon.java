@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 public class Logon implements Serializable {
     private Date date = new Date();

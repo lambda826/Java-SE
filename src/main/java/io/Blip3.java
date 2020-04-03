@@ -9,7 +9,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 
-import static common.utils.PrintUtil.println;
+import static utils.PrintUtil.println;
 
 // Reconstructing an externalizable object.
 
