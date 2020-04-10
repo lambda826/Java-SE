@@ -8,8 +8,8 @@ import reflection.pet.Pets;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static utils.PrintUtil.println;
 import static utils.Print.printnb;
+import static utils.PrintUtil.println;
 
 public class PetCount3 {
     static class PetCounter extends LinkedHashMap<Class<? extends Pet>, Integer> {

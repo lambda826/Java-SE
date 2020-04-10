@@ -2,8 +2,8 @@
 // Basics of EnumMaps.
 package enumerated;
 
-import static utils.PrintUtil.println;
 import static enumerated.AlarmPoints.*;
+import static utils.PrintUtil.println;
 
 interface Command {
     void action();

@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import static utils.PrintUtil.println;
 
 public class SimpleDaemons implements Runnable {
+
     public void run() {
         try {
             while (true) {
@@ -26,4 +27,5 @@ public class SimpleDaemons implements Runnable {
         println("All daemons started");
         TimeUnit.MILLISECONDS.sleep(175);
     }
+
 }

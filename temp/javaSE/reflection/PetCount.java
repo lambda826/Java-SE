@@ -15,8 +15,8 @@ import reflection.pet.Rodent;
 
 import java.util.HashMap;
 
-import static utils.PrintUtil.println;
 import static utils.Print.printnb;
+import static utils.PrintUtil.println;
 
 public class PetCount {
     static class PetCounter extends HashMap<String, Integer> {

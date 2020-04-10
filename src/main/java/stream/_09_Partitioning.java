@@ -8,12 +8,12 @@ import java.util.Map;
 import java.util.Optional;
 
 import static common.pojos.Dish.menu;
-import static utils.PrintUtil.println;
 import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.collectingAndThen;
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.maxBy;
 import static java.util.stream.Collectors.partitioningBy;
+import static utils.PrintUtil.println;
 
 public class _09_Partitioning {
 

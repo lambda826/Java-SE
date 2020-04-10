@@ -7,8 +7,8 @@ package container.map;
 
 import utils.PrintUtil;
 
-import static utils.PrintUtil.println;
 import static java.util.Map.entry;
+import static utils.PrintUtil.println;
 
 Util.println;
 

@@ -3,22 +3,30 @@ package exceptions;
 import static utils.PrintUtil.println;
 
 class Exception1 extends Exception {}
+
 class Exception11 extends Exception1 {}
+
 class Exception12 extends Exception1 {}
+
 class Exception122 extends Exception12 {}
 
 class Exception2 extends Exception {}
+
 class Exception22 extends Exception2 {}
 
 abstract class Inning {
     public Inning() throws Exception1 {}
+
     public void walk() {} // Throws no checked exceptions
+
     public void event() throws Exception1 {} // Doesn't actually have to throw anything
+
     public abstract void atBat_Exception11_Exception12() throws Exception11, Exception12;
 }
 
 interface Storm {
     void event() throws Exception22;
+
     void rainHard() throws Exception22;
 }
 
@@ -38,22 +46,26 @@ interface Storm {
 public class StormyInning extends Inning implements Storm {
     // OK to add new exceptions for constructors, but you must deal with the base constructor exceptions (Exception1):
     public StormyInning() throws Exception22, Exception1 {}
+
     public StormyInning(String s) throws Exception12, Exception1 {}
 
     // Regular methods must conform to base class
     // public void walk() throws Exception122 {}
 
     // You can choose to not throw any exceptions, even if the base version does
-    @Override public void event() {}
+    @Override
+    public void event() {}
 
     // Interface CANNOT add exceptions to existing methods from the base class
     // @Override public void event() throws Exception22 {}
 
     // If the method doesn't already exist in the base class, the exception is OK
-    @Override public void rainHard() throws Exception22 {}
+    @Override
+    public void rainHard() throws Exception22 {}
 
     // Overridden methods can throw inherited exceptions
-    @Override public void atBat_Exception11_Exception12() throws Exception122 {}
+    @Override
+    public void atBat_Exception11_Exception12() throws Exception122 {}
 
     public static void main(String[] args) {
         try {

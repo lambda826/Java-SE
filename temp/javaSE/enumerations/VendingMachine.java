@@ -8,7 +8,6 @@ import utils.TextFile;
 import java.util.EnumMap;
 import java.util.Iterator;
 
-import static utils.PrintUtil.println;
 import static enumerations.Input.ABORT_TRANSACTION;
 import static enumerations.Input.CHIPS;
 import static enumerations.Input.DIME;
@@ -19,6 +18,7 @@ import static enumerations.Input.SOAP;
 import static enumerations.Input.SODA;
 import static enumerations.Input.STOP;
 import static enumerations.Input.TOOTHPASTE;
+import static utils.PrintUtil.println;
 
 enum Category {
     MONEY(NICKEL, DIME, QUARTER, DOLLAR), ITEM_SELECTION(TOOTHPASTE, CHIPS, SODA, SOAP), QUIT_TRANSACTION(ABORT_TRANSACTION), SHUT_DOWN(STOP);

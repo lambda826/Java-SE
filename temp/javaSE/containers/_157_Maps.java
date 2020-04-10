@@ -8,8 +8,8 @@ import java.util.TreeMap;
 import java.util.WeakHashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static utils.PrintUtil.println;
 import static utils.Print.printnb;
+import static utils.PrintUtil.println;
 
 public class _157_Maps {
     public static void printKeys(Map<Integer, String> map) {

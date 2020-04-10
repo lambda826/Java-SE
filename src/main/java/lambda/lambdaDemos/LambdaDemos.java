@@ -10,10 +10,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static utils.PrintUtil.println;
 import static java.util.Comparator.comparingInt;
 import static lambda.Constant.inventory;
 import static lambda.behavior_parameterization.BehaviorParameterizationDemo.filterByApplePredicate;
+import static utils.PrintUtil.println;
 
 
 public class LambdaDemos {

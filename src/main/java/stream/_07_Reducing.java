@@ -6,12 +6,12 @@ import java.util.Comparator;
 import java.util.function.BinaryOperator;
 
 import static common.pojos.Dish.menu;
-import static utils.PrintUtil.println;
 import static java.util.stream.Collectors.averagingInt;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.reducing;
 import static java.util.stream.Collectors.summarizingInt;
 import static java.util.stream.Collectors.summingInt;
+import static utils.PrintUtil.println;
 
 public class _07_Reducing {
 

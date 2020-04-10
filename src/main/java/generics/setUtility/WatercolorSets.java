@@ -4,7 +4,6 @@ package generics.setUtility;
 import java.util.EnumSet;
 import java.util.Set;
 
-import static utils.PrintUtil.println;
 import static generics.setUtility.Sets.complement;
 import static generics.setUtility.Sets.difference;
 import static generics.setUtility.Sets.intersection;
@@ -13,6 +12,7 @@ import static generics.setUtility.WatercolorsEnum.BRILLIANT_RED;
 import static generics.setUtility.WatercolorsEnum.BURNT_UMBER;
 import static generics.setUtility.WatercolorsEnum.CERULEAN_BLUE_HUE;
 import static generics.setUtility.WatercolorsEnum.VIRIDIAN_HUE;
+import static utils.PrintUtil.println;
 
 public class WatercolorSets {
     public static void main(String[] args) {

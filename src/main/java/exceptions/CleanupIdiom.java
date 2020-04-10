@@ -61,7 +61,7 @@ public class CleanupIdiom {
                     nc5.dispose();
                 }
             } catch (ConstructionException e) { // nc5 constructor
-                    System.out.println(e);
+                System.out.println(e);
             } finally {
                 nc4.dispose();
             }

@@ -14,8 +14,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.function.Predicate;
 
-import static utils.PrintUtil.println;
 import static lambda.Constant.inventory;
+import static utils.PrintUtil.println;
 
 
 public class BehaviorParameterizationDemo {

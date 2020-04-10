@@ -6,8 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import static utils.PrintUtil.println;
 import static java.util.stream.Collectors.groupingBy;
+import static utils.PrintUtil.println;
 
 public class _06_GroupingTransactions {
 

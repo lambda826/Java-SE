@@ -4,8 +4,8 @@ package enumerated;
 
 import util.*;
 
-import static utils.PrintUtil.println;
 import static enumerated.Input.*;
+import static utils.PrintUtil.println;
 
 enum Category {
     MONEY(NICKEL, DIME, QUARTER, DOLLAR), ITEM_SELECTION(TOOTHPASTE, CHIPS, SODA, SOAP), QUIT_TRANSACTION(ABORT_TRANSACTION), SHUT_DOWN(STOP);

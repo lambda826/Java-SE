@@ -1,7 +1,7 @@
 package containers;
 
-import static utils.PrintUtil.println;
 import static utils.Print.printnb;
+import static utils.PrintUtil.println;
 
 public class _155_DequeTest {
     static void fillTest(_154_Deque<Integer> deque) {

@@ -2,9 +2,9 @@ package optional;
 
 import java.util.Optional;
 
-import static utils.PrintUtil.println;
 import static java.util.Optional.empty;
 import static java.util.Optional.of;
+import static utils.PrintUtil.println;
 
 public class OperationsWithOptional {
 
